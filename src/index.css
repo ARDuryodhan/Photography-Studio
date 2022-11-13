@@ -45,9 +45,7 @@ li{
 .menu-bar li:hover{
     color: #20c997;
 }
-.opt-gallery{
-    
-}
+
 .opt-gallery ul li{
     background-color: white;
     padding: 10px;
@@ -114,6 +112,7 @@ footer p {
     height: 400px;
     
 }
+
 .box-1 h4{
     color: white;
     position: absolute;
