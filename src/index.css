@@ -1,0 +1,523 @@
+.bar{
+    background-color: #434343;
+    height: 60px;
+}
+.nav-bar{
+    height: 90px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000
+}
+.brand-name{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 10px;
+    font-family: 'icomoon';
+    text-transform: uppercase;
+    
+}
+.menu-bar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    padding: 10px;
+    font-weight: 500;
+    margin-top: 19px;
+}
+.menu-bar ul{
+    display: flex;
+    margin-left: 20px;
+    list-style-type: none;
+}
+.menu-bar ul li{
+    
+    position: relative;
+    padding: 10px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+li{
+    color: rgba(255, 255, 255, 0.5);
+    list-style-type: none;
+}
+.menu-bar li:hover{
+    color: #20c997;
+}
+.opt-gallery{
+    
+}
+.opt-gallery ul li{
+    background-color: white;
+    padding: 10px;
+    color: #000000;
+    position: relative;
+    left: -70px;
+    top: 150%;
+    display: none;
+}
+
+.opt-gallery:hover{
+    background-color: white;
+    padding: 10px;
+    color: #000000;
+    position: relative;
+    left: -70px;
+    top: 150%;
+    
+}
+
+.social-bar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    display: flex;
+    padding: 10px;
+}
+.social-bar span{
+    margin-left: 20px;
+    margin-top: 19px;
+}
+.social-bar span:hover{
+    color: white;
+}
+.row{
+    background-color: #000000;
+    
+    padding: 15px;
+}
+.row div{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 420px;
+    height: 400px;
+    border-radius: 4px;
+}
+footer p {
+    height: 20vh;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #000000;
+    text-align: center;
+    padding: 42px;
+    font-size: 20px;
+    font-family: 'icomoon';
+}
+
+.row div img{
+    width: 100%;
+    height: 100%;
+}
+.box-1{
+    position: relative;
+    width: 420px;
+    height: 400px;
+    
+}
+.box-1 h4{
+    color: white;
+    position: absolute;
+    bottom: 198px;
+    right: 0;
+    left: 115px;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.box-1 p{
+    color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 125px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'icomoon';
+    font-weight: bold;
+}
+.box-1 p:hover{
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+    background-color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 125px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.box-2{
+    position: relative;
+    width: 420px;
+    height: 400px;
+    
+}
+.box-2 h4{
+    color: white;
+    position: absolute;
+    bottom: 198px;
+    right: 0;
+    left: 115px;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.box-2 p{
+    color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 150px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'icomoon';
+    font-weight: bold;
+}
+.box-2 p:hover{
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+    background-color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 150px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.box-3{
+    position: relative;
+    width: 420px;
+    height: 400px;
+    
+}
+.box-3 h4{
+    color: white;
+    position: absolute;
+    bottom: 198px;
+    right: 0;
+    left: 115px;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.box-3 p{
+    color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 130px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'icomoon';
+    font-weight: bold;
+}
+.box-3 p:hover{
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+    background-color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 130px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.box-4{
+    position: relative;
+    width: 420px;
+    height: 400px;
+    
+}
+.box-4 h4{
+    color: white;
+    position: absolute;
+    bottom: 198px;
+    right: 0;
+    left: 28px;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.box-4 p{
+    color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 125px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'icomoon';
+    font-weight: bold;
+}
+.box-4 p:hover{
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+    background-color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 125px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.box-5{
+    position: relative;
+    width: 420px;
+    height: 400px;
+    
+}
+.box-5 h4{
+    color: white;
+    position: absolute;
+    bottom: 198px;
+    right: 0;
+    left: 115px;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.box-5 p{
+    color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 128PX;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'icomoon';
+    font-weight: bold;
+}
+.box-5 p:hover{
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+    background-color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 128PX;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.box-6{
+    position: relative;
+    width: 420px;
+    height: 400px;
+    
+}
+.box-6 h4{
+    color: white;
+    position: absolute;
+    bottom: 198px;
+    right: 0;
+    left: 115px;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.box-6 p{
+    color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 130px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'icomoon';
+    font-weight: bold;
+}
+.box-6 p:hover{
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+    background-color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 130px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.box-7{
+    position: relative;
+    width: 420px;
+    height: 400px;
+    
+}
+.box-7 h4{
+    color: white;
+    position: absolute;
+    bottom: 198px;
+    right: 0;
+    left: 115px;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.box-7 p{
+    color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 125px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'icomoon';
+    font-weight: bold;
+}
+.box-7 p:hover{
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+    background-color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 125px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.box-8{
+    position: relative;
+    width: 420px;
+    height: 400px;
+    
+}
+.box-8 h4{
+    color: white;
+    position: absolute;
+    bottom: 198px;
+    right: 0;
+    left: 140px;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.box-8 p{
+    color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 130px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'icomoon';
+    font-weight: bold;
+}
+.box-8 p:hover{
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+    background-color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 130px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.box-9{
+    position: relative;
+    width: 420px;
+    height: 400px;
+    
+}
+.box-9 h4{
+    color: white;
+    position: absolute;
+    bottom: 198px;
+    right: 0;
+    left: 115px;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.box-9 p{
+    color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 140px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'icomoon';
+    font-weight: bold;
+}
+.box-9 p:hover{
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+    background-color: white;
+    position: absolute;
+    padding: 7px;
+    bottom: 140px;
+    right: 0;
+    left: 140px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.grayscale{
+    filter: grayscale();
+}
+.grayscale:hover{
+    filter: none;   
+}
+
